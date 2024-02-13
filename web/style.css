@@ -10,6 +10,10 @@ html{
     scroll-margin: 90px;
 }
 
+body{
+  height: 100%;
+}
+
 .flex-container{
     display: flex;
     justify-content:space-between;
@@ -25,12 +29,13 @@ header{
     z-index: 100;
     min-height: 90px;
     height: 90px;
-    background: #00000000;
+    background: #000000;
     border-bottom: 2px solid #fff;
 }
 
 img{
-  height: 89px;
+  max-height: 89px;
+  height: 100%;
 }
 
 a{
@@ -120,12 +125,32 @@ nav a {
   border-radius: 10px;
 }
 
+.pimg1{
+    background-image: url(img/Blast-Galaxy.jpg);
+    height: 100vh;
+    width: 100%;
+}
 
+.pimg2{
+  background-image: url(img/88f91632c9cefae92d2d6a5d1bbac0226185d5f64a640181745732d5032eca3a-rimg-w1200-h800-gmir.jpg);
+  height: 100vh;
+  width: 100%;
+}
 
+.pimg1{
+  background-image: url(img/Blast-Galaxy.jpg);
+  height: 100vh;
+  width: 100%;
+}
 
-
-
-
+.pimg1, .pimg2{
+  position: relative;
+  opacity: 0.75;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 
 
