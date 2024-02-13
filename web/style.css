@@ -30,7 +30,7 @@ header{
     min-height: 90px;
     height: 90px;
     background: #000000;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #8e41e6;
 }
 
 img{
@@ -123,6 +123,31 @@ nav a {
   left: 0;
   top: 0;
   border-radius: 10px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 35%;
+  width: 100%;
+  font-size: 24px;
+  text-align: center;
+  color: #ffffff;
+  background-color: unset;
+}
+
+.caption #home {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+.Content-1{
+  display: flex;
+  height:500px;
+  background-color:rgb(0, 0, 0);
 }
 
 .pimg1{
