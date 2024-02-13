@@ -1,0 +1,10 @@
+.hover-button {
+    padding: 1rem;
+    background-color: rgba(0,0,0,0.05);
+    transition: background-color 0.3s, color 0.3s;
+
+    &:hover {
+        color: white;
+        background-color: red;
+    }
+}
